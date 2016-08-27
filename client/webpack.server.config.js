@@ -10,7 +10,7 @@ module.exports = {
   context: __dirname,
   entry: [
     'babel-polyfill',
-    './app/bundles/StylistConsole/startup/server'
+    './app/bundles/DopeChess/startup/server.js'
   ],
   output: {
     filename: 'webpack-server.js',
